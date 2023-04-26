@@ -3,7 +3,7 @@ name = "genauai-kernel"
 version = "0.0.1"
 description = "Kernel library for Genau AI"
 repository = "https://github.com/genauai/kernel"
-readme = "README.md"
+readme = "readme.md"
 license = "MIT"
 edition = "2021"
 
