@@ -1,10 +1,15 @@
 [package]
 name = "genauai-kernel"
 version = "0.0.1"
-edition = "2021"
+description = "Kernel library for Genau AI"
+repository = "https://github.com/genauai/kernel"
+readme = "README.md"
 license = "MIT"
+edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "genauai_kernel"
+path = "src/lib.rs"
 
 [dependencies]
 dotenv = "0.15.0"
